@@ -1,3 +1,20 @@
 .main {
-
+  .montserrat {
+    font-family: 'Montserrat', sans-serif;
+    .h1 {
+      font-weight: 700;
+    }
+    .p {
+      font-weight: 400;
+    }
+  }
+  .roboto {
+    font-family: 'Roboto Slab', serif;
+    .h1 {
+      font-weight: 700;
+    }
+    .p {
+      font-weight: 400;
+    }
+  }
 }
