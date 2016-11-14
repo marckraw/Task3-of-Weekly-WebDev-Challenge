@@ -1,0 +1,24 @@
+input, button, submit {
+  border: none;
+}
+
+
+.btn {
+  width: 200px;
+  height: 60px;
+  text-transform: uppercase;
+  color: $primary-color
+}
+
+.btn--primary {
+  background-color: $accent-color;
+  border-radius: 40px;
+}
+
+.btn--secondary {
+  width: 180px;
+  height: 52px;
+  background-color: $accent-color;
+  border: 3px solid $primary-color;
+  border-radius: 8px;
+}

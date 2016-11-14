@@ -2,71 +2,84 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>FastShell by @_Karamii</title>
+    <title>Task3 of Weekly WebDev Challenge</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-
-    <link href="//www.google-analytics.com" rel="dns-prefetch">
-    <link href="//ajax.googleapis.com" rel="dns-prefetch">
     <link href="assets/css/style.min.css" rel="stylesheet">
 
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>
   <body>
 
-    <header class="header" role="banner">
-      <div class="logo">
-        <a href="/">
-          <img src="assets/img/logo.png" alt="Logo">
-        </a>
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__logo">
+          <img src="assets/img/leaf.png" alt="Site logo">
+          <p>treehouse</p>
+        </div>
+        <nav class="site-header__nav">
+          <ul>
+            <li class="nav__item nav__item--active">home</li>
+            <li class="nav__item">about</li>
+            <li class="nav__item">blog</li>
+            <li class="nav__item">portfolio</li>
+            <li class="nav__item">contact</li>
+          </ul>
+        </nav>
       </div>
-      <nav class="nav" role="navigation">
-        <ul>
-          <li>
-            <a href="/"></a>
-          </li>
-        </ul>
-      </nav>
     </header>
-
-    <main class="main" role="main">
-      <div class="montserrat">
-        <h1>Lorem ipsum dolor sit Amet.</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+    <section class="jumbotron">
+      <div class="container">
+        <div class="jumbotron__content">
+          <h1 class="jumbotron__h1">creative digital solutions</h1>
+          <p class="jumbotron__p">Proin iaculis purus consequat sem cure.</p>
+          <button class="btn btn--primary jumbotron__btn">view portfolio</button>
+        </div>
       </div>
-      <div class="roboto">
-        <h1>Lorem ipsum dolor sit Amet.</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+    </section>
+    <section class="services">
+      <div class="container">
+        <header>
+          <h2>professional services</h2>
+          <p>Proin iaculis purus consequat sem cure </p>
+        </header>
+        <div class="services__items">
+          <div class="services__item">
+            <img src="assets/img/icon-heart.png" alt="Beautiful design">
+            <h3>beautiful design</h3>
+            <p>Proin iaculis purus consequat sem cure
+digni ssim. Donec porttitora entum suscipit
+aenean rhoncus posuere odio in tincidunt.</p>
+          </div>
+          <div class="services__item">
+            <img src="assets/img/Icon-Mobile.png" alt="Reponsive web">
+            <h3>responsive web</h3>
+            <p>Proin iaculis purus consequat sem cure
+digni ssim. Donec porttitora entum suscipit
+aenean rhoncus posuere odio in tincidunt.</p>
+          </div>
+          <div class="services__item">
+            <img src="assets/img/marketing-tools.png" alt="Marketing tools">
+            <h3>marketing tools</h3>
+            <p>Proin iaculis purus consequat sem cure
+digni ssim. Donec porttitora entum suscipit
+aenean rhoncus posuere odio in tincidunt.</p>
+          </div>
+        </div>
       </div>
+    </section>
+    <section class="contact-us">
+      <div class="container">
+        <div class="contact-us__content">
+          <h2 class="contact-us__h2">ready to talk about your next project?</h2>
+          <button class="btn btn--secondary contact-us__btn">contact us</button>
+        </div>
+      </div>
+    </section>
 
-    </main>
 
-    <aside class="sidebar" role="complementary">
-
-    </aside>
-
-    <footer class="footer" role="contentinfo">
-
-    </footer>
-
-    <script src="assets/components/jquery/jquery.min.js"></script>
     <script src="assets/js/scripts.min.js"></script>
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-
   </body>
 </html>
