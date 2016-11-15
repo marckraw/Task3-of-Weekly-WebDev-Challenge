@@ -5,13 +5,23 @@
 }
 html {
   font-size: 62.5%;
-  background: radial-gradient(ellipse at center, $base 0, $darken 80%, $back 100%);
+  // background: radial-gradient(ellipse at center, $base 0, $darken 80%, $back 100%);
 }
 body {
-  font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  font: 300 14px/1.6 'Roboto Slab', Helvetica, Arial;
   color: #444;
   transition: all .4s .3s ease-in;
 }
+
+a, a:visited, a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+ a:hover {
+   color: $accent-color;
+   transition: color 0.5s;
+ }
 
 // body,html{
 // 	min-height: 100vh;
