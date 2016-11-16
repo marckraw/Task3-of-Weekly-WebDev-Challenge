@@ -135,6 +135,60 @@ body {
   margin: 30px 0 40px 0;
 }
 
+// services
+.services {
+  padding: 100px 0 100px 0;
+}
+
+.services header {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.services h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.services header p {
+  color: $text-color--darker;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.services__item {
+  text-align: center;
+  width: 33.33%;
+  float: left;
+  padding: 0 10px;
+}
+
+.services__item--first {
+  padding-left: 0;
+}
+
+.services__item--last {
+  padding-right: 0;
+}
+
+
+
+.services__item h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.services__item p {
+  font-size: 14px;
+  color: $text-color--darker;
+}
+
+
+
 .automation {
   z-index: 0;
   height: 500px;
