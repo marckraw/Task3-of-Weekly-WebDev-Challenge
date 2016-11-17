@@ -12,7 +12,6 @@
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>
   <body>
-
     <header class="site-header">
       <div class="container clear">
         <div class="site-header__logo">
@@ -21,17 +20,16 @@
         </div>
         <nav class="site-header__nav">
           <ul>
-            <li class="nav__item nav__item--active"><a href="#">home</a></li>
-            <li class="nav__item"><a href="#">about</a></li>
-            <li class="nav__item"><a href="#">blog</a></li>
+            <li class="nav__item nav__item--active"><a href="#home">home</a></li>
+            <li class="nav__item"><a href="#about">about</a></li>
+            <li class="nav__item"><a href="#blog">blog</a></li>
             <li class="nav__item"><a href="#">portfolio</a></li>
-            <li class="nav__item"><a href="#">contact</a></li>
+            <li class="nav__item"><a href="#contact">contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <section class="jumbotron">
-      <div class="jumbotron__shade">
+    <section id="home" class="jumbotron">
         <div class="container">
           <div class="jumbotron__content">
             <h1 class="jumbotron__h1">creative digital solutions</h1>
@@ -39,9 +37,8 @@
             <button class="btn btn--primary jumbotron__btn">view portfolio</button>
           </div>
         </div>
-      </div>
     </section>
-    <section class="services">
+    <section id="about" class="services">
       <div class="container">
         <header>
           <h2>professional services</h2>
@@ -72,38 +69,29 @@
         </div>
       </div>
     </section>
-    <section class="automation">
-      <div class="container">
-        <div class="automation__background">
-          <div class="automation__shade clear">
-            <div class="automation__content">
-              <h2>Just relax &
-                  let us do the heavy lifting</h2>
-              <p>
-                Proin iaculis purus consequat sem cure  digni ssim. Donec
-                porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.
-              </p>
-              <ul>
-                <li>Initial Setup & Customizations</li>
-                <li>Regular Updates</li>
-                <li>Round The Clock Support</li>
-              </ul>
+    <section id="blog" class="automation clear">
+      <div class="automation__background">
+        <div class="container__automation">
+          <div class="automation__content">
+            <h2>Just relax <span>&</span><br>
+                let us do the heavy lifting</h2>
+            <p>
+              Proin iaculis purus consequat sem cure  digni ssim. Donec
+              porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.
+            </p>
+            <ul class="automation__listItems">
+              <li class="automation__listItem">Initial Setup & Customizations</li>
+              <li class="automation__listItem">Regular Updates</li>
+              <li class="automation__listItem">Round The Clock Support</li>
+            </ul>
 
-            </div>
+            <button class="btn btn--primary jumbotron__btn">learn more</button>
+
           </div>
         </div>
       </div>
-      <!-- <div class="jumbotron__shade">
-        <div class="container">
-          <div class="jumbotron__content">
-            <h1 class="jumbotron__h1">creative digital solutions</h1>
-            <p class="jumbotron__p">Proin iaculis purus consequat sem cure.</p>
-            <button class="btn btn--primary jumbotron__btn">view portfolio</button>
-          </div>
-        </div>
-      </div> -->
     </section>
-    <section class="contact-us">
+    <section id="contact" class="contact-us">
       <div class="container">
         <div class="contact-us__content">
           <h2 class="contact-us__h2">ready to talk about your next project?</h2>
@@ -111,8 +99,6 @@
         </div>
       </div>
     </section>
-
-
     <script src="assets/js/scripts.min.js"></script>
   </body>
 </html>
