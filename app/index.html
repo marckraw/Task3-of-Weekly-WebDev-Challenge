@@ -20,11 +20,11 @@
         </div>
         <nav class="site-header__nav">
           <ul>
-            <li class="nav__item nav__item--active"><a href="#home">home</a></li>
-            <li class="nav__item"><a href="#about">about</a></li>
-            <li class="nav__item"><a href="#blog">blog</a></li>
-            <li class="nav__item"><a href="#">portfolio</a></li>
-            <li class="nav__item"><a href="#contact">contact</a></li>
+            <li class="nav__item nav__item--active"><a class="nav__home" href="#home">home</a></li>
+            <li class="nav__item"><a class="nav__about" href="#about">about</a></li>
+            <li class="nav__item"><a class="nav__blog" href="#blog">blog</a></li>
+            <li class="nav__item"><a class="nav__portfolio" href="#portfolio">portfolio</a></li>
+            <li class="nav__item"><a class="nav__contact" href="#contact">contact</a></li>
           </ul>
         </nav>
       </div>
@@ -79,10 +79,10 @@
               Proin iaculis purus consequat sem cure  digni ssim. Donec
               porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.
             </p>
-            <ul class="automation__listItems">
-              <li class="automation__listItem">Initial Setup & Customizations</li>
-              <li class="automation__listItem">Regular Updates</li>
-              <li class="automation__listItem">Round The Clock Support</li>
+            <ul>
+              <li>Initial Setup & Customizations</li>
+              <li>Regular Updates</li>
+              <li>Round The Clock Support</li>
             </ul>
 
             <button class="btn btn--primary jumbotron__btn">learn more</button>
@@ -90,6 +90,45 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="portfolio" class="portfolio clear">
+      <!-- <div class="automation__background"> -->
+        <div class="container">
+          <h2>latest project</h2>
+          <p>Proin iaculis purus consequat sem cure </p>
+          <div class="portfolio_content">
+            <h3>developing a framework</h3>
+            <p>
+              Proin iaculis purus consequat sem cure  digni ssim
+              donec porttitora entum suscipit  aenean rhoncus posuere
+              odio in tincidunt.
+            </p>
+            <ul>
+              <li>
+                <div>
+                  <h3>E-Commerce Ready</h3>
+                  <p>Proin iaculis purus consequat sem cure  digni ssim. </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h3>Powerful SEO Features</h3>
+                  <p>Proin iaculis purus consequat sem cure.</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h3>Secure Encryption</h3>
+                  <p>Proin iaculis purus consequat sem cure iaculis purus.</p>
+                </div>
+              </li>
+            </ul>
+
+            <a class="btn btn--primary jumbotron__btn">view details</a>
+
+          </div>
+        </div>
+      <!-- </div> -->
     </section>
     <section id="contact" class="contact-us">
       <div class="container">
@@ -99,6 +138,7 @@
         </div>
       </div>
     </section>
+    <script src="assets/components/jquery/jquery.min.js"></script>
     <script src="assets/js/scripts.min.js"></script>
   </body>
 </html>

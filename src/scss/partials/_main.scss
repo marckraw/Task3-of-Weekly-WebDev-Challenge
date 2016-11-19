@@ -250,9 +250,18 @@ body {
       padding: 10px 0px 10px 50px;
       text-decoration: none;
       background: url("../img/Checkmark-1.png") no-repeat left;
+    }
   }
 }
 
+.portfolio {
+  z-index: 0;
+  // height: 500px;
+  width: 100%;
+  background: url("../img/isometric-ipad.png") no-repeat;
+  background-size: auto;
+  background-attachment: scroll;
+  background-position: 85% center;
 }
 
 
