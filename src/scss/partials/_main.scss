@@ -341,7 +341,7 @@ body {
 .values {
   background-color: #f9f9f9;
   text-align: center;
-  padding: 100px 0 100px 0;
+  padding: 100px 0;
   h2 {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -366,6 +366,7 @@ body {
   &__item {
     float: left;
     width: 33.33%;
+    padding: 0 10px;
     > p {
       color: $text-color--darker;
       margin-top: 0;
@@ -388,7 +389,7 @@ body {
   &__item--first:after {
     content: "";
     width: 140px;
-    border-top: 1px solid #000;
+    border-top: 2px solid $text-color--darker;
     z-index: 99;
     position: absolute;
     top: 20%;
@@ -403,7 +404,7 @@ body {
   &__item--last:after {
     content: "";
     width: 140px;
-    border-top: 1px solid #000;
+    border-top: 2px solid $text-color--darker;
     z-index: 99;
     position: absolute;
     top: 20%;
@@ -413,21 +414,91 @@ body {
 
 
 
+.credentials {
+  text-align: center;
+  padding: 100px 0;
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+  }
 
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
 
+  > p {
+    margin-top: 0;
+    font-size: 20px;
+    color: $text-color--darker;
+  }
 
+  &__item {
+    width: 100%;
+    margin: 50px 0;
+  }
 
+  &__img {
+    float: left;
+    width: 220px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    &--even {
+      float: right;
+    }
+  }
 
-
-
-
-
-//background1.png
-// .automation__content {
-//
-// }
+  &__blockquote {
+    z-index: 2;
+    position: relative;
+    padding: 40px;
+    float: right;
+    background-color: #f9f9f9;
+    margin: 35px 0 0 0;
+    max-width: 640px;
+    &--odd:after {
+      z-index: 0;
+      right: 98%;
+    	top: 50%;
+    	border: solid transparent;
+    	content: " ";
+    	height: 0;
+    	width: 0;
+    	position: absolute;
+    	pointer-events: none;
+    	border-color: rgba(249, 249, 249, 0);
+    	border-right-color: #f9f9f9;
+    	border-width: 30px;
+    	margin-top: -30px;
+    }
+    &--even:after {
+      left: 98%;
+    	top: 50%;
+    	border: solid transparent;
+    	content: " ";
+    	height: 0;
+    	width: 0;
+    	position: absolute;
+    	pointer-events: none;
+    	border-color: rgba(249, 249, 249, 0);
+    	border-left-color: #f9f9f9;
+    	border-width: 30px;
+    	margin-top: -30px;
+    }
+    &--even {
+      float: left;
+    }
+    p {
+      color: $text-color--darker;
+      font-size: 22px;
+      margin: 0;
+    }
+  }
+}
 
 .contact-us {
+  padding: 70px 0;
   background-color: $accent-color;
 }
 
@@ -436,6 +507,11 @@ body {
 }
 
 .contact-us__h2 {
+  margin: 0 0 10px 0;
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
   color: $primary-color;
 }
