@@ -516,6 +516,39 @@ body {
   color: $primary-color;
 }
 
+.adds {
+  &__content {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  &__img {
+    display: inline-block;
+    padding: 0 20px;
+  }
+}
+
+.footer {
+  background-color: #222222;
+  color: #ececec;
+  &__content {
+    padding: 25px 0;
+    text-align: right;
+    p {
+      float: left;
+      color: $text-color--darker;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+    }
+  }
+
+  &__img {
+    display: inline-block;
+    padding: 0 5px;
+  }
+}
+
+
 
 
 // #00ff00 url("smiley.gif") no-repeat fixed center;
