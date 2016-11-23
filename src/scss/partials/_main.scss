@@ -531,6 +531,87 @@ body {
 .footer {
   background-color: #222222;
   color: #ececec;
+  &__item {
+    padding: 60px 0;
+    float: left;
+    width: 32%;
+  }
+  &__content {
+    // padding: 25px 0;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    h3 {
+      margin: 0 0 15px 0;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+  &__contact {
+    p {
+      padding: 0 0 0 40px;
+    }
+    p:nth-child(2) {
+      background: url("../img/location.png") no-repeat;
+    }
+    p:nth-child(3) {
+      background: url("../img/iPhone-potrait.png") no-repeat;
+      padding: 5px 0 8px 40px;
+      margin: 0;
+      // height: 40px;
+    }
+    p:nth-child(4) {
+      background: url("../img/email.png") no-repeat;
+    }
+  }
+  &__latestPosts {
+    margin: 0 2%;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      font-family: "Roboto Slab", serif;
+      font-weight: normal;
+      font-size: 16px;
+      padding: 0 0 15px 40px;
+      text-transform: capitalize;
+    }
+    li:nth-child(2) {
+      background: url("../img/Photo-Icon.png") no-repeat;
+    }
+    li:first-child, li:nth-child(3), li:nth-child(4) {
+      background: url("../img/News-Icon.png") no-repeat;
+    }
+    li:last-child {
+      background: url("../img/Media-Icon.png") no-repeat;
+    }
+  }
+  &__latestTweets {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      background: url("../img/Twitter.png") no-repeat;
+      padding: 0 0 15px 40px;
+    }
+    p {
+      margin: 0;
+    }
+    p:nth-child(2) {
+      font-weight: bold;
+    }
+    p:nth-child(3) {
+      font-size: 12px;
+    }
+  }
+}
+
+
+.social {
   &__content {
     padding: 25px 0;
     text-align: right;
@@ -544,7 +625,7 @@ body {
 
   &__img {
     display: inline-block;
-    padding: 0 5px;
+    padding: 0
   }
 }
 
