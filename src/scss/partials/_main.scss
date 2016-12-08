@@ -37,6 +37,12 @@ body {
   background-color: #fff;
   width: 100%;
   border-bottom: 1px solid #ddd;
+  &__menuIcon-mobile {
+      display: none;
+  }
+  &__nav--mobile {
+    display: none;
+  }
 }
 
 .site-header__logo {
@@ -57,6 +63,10 @@ body {
     padding-top: 3px;
     text-transform: uppercase;
   }
+}
+
+.site-header__nav--mobile {
+  display: none;
 }
 
 .site-header__nav {
